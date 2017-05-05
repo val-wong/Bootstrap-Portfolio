@@ -2,34 +2,23 @@
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
-  <title>Bootstrap Portfolio</title>
-
+  <title>About</title>
+  <link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <!-- Regular Buttons -->
-  <!-- <h1>Here are some non-fancy buttons</h1>
-  <button>Boring Button</button>
-  <button>Boring Button</button> -->
-
-  <!-- Bootstrap Enhanced Buttons -->
-  <<!-- h1>Here are fancy bootstrap buttons</h1>
-  <button class="btn btn-primary btn-lg">Fancy Button</button> -->
-  <!-- Note the specific Bootstrap classes -->
-  <!-- <button class="btn btn-danger btn-lg">Fancy Button</button> -->
-  <!-- Note the specific Bootstrap classes -->
 
   <nav class="navbar navbar-default">
         <div class="row">
@@ -46,17 +35,17 @@
     
         <div class="col-md-4">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-        </div><!-- /.container-fluid -->
+        </div>
   </nav>
 
 <!-- a Bootstrap row with columns -->
   <div class="row">
-      <div class="col-md-8">
-          <img src="Assets/images/profile.JPG" class="auth-image" alt="headshot" height="150px" width="200px">
+      <div class="col-md-4">
+          <img src="Assets/images/profile.JPG" class="auth-image" alt="headshot">
       <p>Hi, my name is Valentin Wong and it is my pleasure to meet you! Here's a quick background about me- I love travelling, hiking, nature, and sports. More often than not, you can catch me at a golf course somewhere during the weekends. I was born in Paris and lived in France for 9 years. However, I've nearly forgot all my French-speaking abilities.</p>
 
       <p>
@@ -64,14 +53,16 @@
       </p>
       </div>
 
-      <div class="col-md-4">
-          <h2>Connect with Me</h2>
+      <div class="col-md-8">
+        <div>
+          <section class="sidebar">
+            <h2>Connect with Me</h2>
 
-          <img src="Assets/images/github.png" class="social" alt="github.png" height="60px" width="60px">
-        <img src="Assets/images/linkedin.png" class="social" alt="linkedin.png" height="60px" width="60px">
-        <img src="Assets/images/stackoverflow.png" class="social" alt="stackoverflow.png" height="60px" width="60px">
-
-
+            <img src="Assets/images/github.png" class="social" alt="github.png">
+            <img src="Assets/images/linkedin.png" class="social" alt="linkedin.png">
+            <img src="Assets/images/stackoverflow.png" class="social" alt="stackoverflow.png">
+          </section>
+        </div>
       </div>
   </div>
 
